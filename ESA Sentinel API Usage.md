@@ -3,7 +3,7 @@
 # written using sentinelsat v0.12
 from sentinelsat.sentinel import SentinelAPI, read_geojson, geojson_to_wkt #get_coordinates
 from datetime import date
-api = SentinelAPI('GeoffreyBa', 'scoob20003', 'https://scihub.copernicus.eu/dhus')
+api = SentinelAPI('username', 'password', 'https://scihub.copernicus.eu/dhus')
 
 #f = open('output.txt','w')
 
